@@ -1,3 +1,9 @@
+// print the following pattern.
+//           *
+//          **
+//         ***
+//        ****
+
 import java.util.Scanner;
 public class Pattern1 {
     public static void main(String[] args) {
@@ -5,6 +11,7 @@ public class Pattern1 {
         int n = scan.nextInt();
         int i = 1;
         while(i<=n){
+
             int j = 1;
             while(j<=(n-i)){
                 System.out.print(" ");
@@ -15,8 +22,6 @@ public class Pattern1 {
                 System.out.print("*");
                 j++;
             }
-
-
 
             System.out.println();
             i++;
