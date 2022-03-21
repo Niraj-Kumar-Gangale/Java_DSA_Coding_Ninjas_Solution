@@ -1,8 +1,10 @@
 /*
 Print the following pattern for the given number of rows.
         Pattern for N = 4
-
-
+                  1
+                 232
+                34543
+               4567654
 
         The dots represent spaces.
 
