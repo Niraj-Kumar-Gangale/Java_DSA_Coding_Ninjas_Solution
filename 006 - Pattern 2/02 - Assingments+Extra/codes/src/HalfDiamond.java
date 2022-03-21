@@ -47,21 +47,19 @@ public class HalfDiamond {
         //method 3 coding ninja solution.
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        int n1 = (2*n+3)/2-1;
-        int n2  = (2*n+1)/2-1;
         int i = 1;
         System.out.println("*");
-        while (i<=n1){
+        while (i<=n){
             System.out.print("*");
             int j = 1;
             while (j<=i){
                 System.out.print(j);
                 j++;
             }
-            j = 1;
-            while(j<=(i-1)){
-                System.out.print(i-j);
-                j++;
+            j = j-2;
+            while(j>=1){
+                System.out.print(j);
+                j--;
             }
             System.out.print("*");
             System.out.println();
@@ -69,17 +67,17 @@ public class HalfDiamond {
         }
 
         i = 1;
-        while (i<=n2){
+        while (i<=n-1){
             System.out.print("*");
             int j = 1;
-            while (j<=n2-i+1){
+            while (j<=n-i){
                 System.out.print(j);
                 j++;
             }
-            j = 1;
-            while(j<=(n2-i)){
-                System.out.print(n2-i-j+1);
-                j++;
+            j = j-2;
+            while(j>=1){
+                System.out.print(j);
+                j--;
             }
             System.out.print("*");
             System.out.println();
