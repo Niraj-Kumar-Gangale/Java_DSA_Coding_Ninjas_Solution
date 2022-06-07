@@ -19,7 +19,6 @@
  * Sample Output 2 :
  * 2
  */
-import com.sun.security.jgss.GSSUtil;
 
 import java.util.Scanner;
 public class SquareRoot {
