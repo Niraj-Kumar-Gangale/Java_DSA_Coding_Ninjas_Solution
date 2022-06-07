@@ -54,5 +54,14 @@ public class DecimalTOBinary {
         }
         System.out.println(binaryNo);
         // END-------------------------------
+
+        // without using MAth.pow
+        /*
+        int pow = 1;
+        while(){
+        binaryNo = binaryNo + rem * pow;
+        pow= pow*10;
+        }
+        */
     }
 }
