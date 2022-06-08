@@ -1,4 +1,4 @@
-package DuringLecturePLusExtra.HowFunctionCallingWork;
+package DuringLecturePLusExtra.WhatAndWhyOfFunction;
 
 import java.util.Scanner;
 
