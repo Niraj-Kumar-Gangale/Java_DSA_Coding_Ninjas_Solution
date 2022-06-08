@@ -3,7 +3,7 @@ package ArithmeticOperatorsAndPrecedence;
 public class PrecedenceAssociativity {
     public static void main(String[] args) {
 
-        // associativity
+        // precedence
         int c = 3+10/5;
         System.out.println(c);
 
