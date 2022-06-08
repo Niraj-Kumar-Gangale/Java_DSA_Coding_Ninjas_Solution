@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Misc Files.">
-      <change afterPath="$PROJECT_DIR$/src/ArithmeticOperatorsAndPrecedence/ArithmeticOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Arithmetic Operators Files." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654675633399</updated>
-      <workItem from="1654675634729" duration="1710000" />
+      <workItem from="1654675634729" duration="2090000" />
     </task>
     <task id="LOCAL-00001" summary="Add Misc Files.">
       <created>1654675705579</created>
@@ -88,7 +85,35 @@
       <option name="project" value="LOCAL" />
       <updated>1654675705579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Misc Files.">
+      <created>1654686543507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654686543507</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Misc Files.">
+      <created>1654686554675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654686554675</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add precedence Associativity Files.">
+      <created>1654686593323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654686593323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Arithmetic Operators Files.">
+      <created>1654686623423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654686623424</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Misc Files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Misc Files." />
+    <MESSAGE value="Add precedence Associativity Files." />
+    <MESSAGE value="Add Arithmetic Operators Files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Arithmetic Operators Files." />
   </component>
 </project>
