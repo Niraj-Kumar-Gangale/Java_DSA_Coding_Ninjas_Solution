@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Update Precedence Associativity Files.">
-      <change afterPath="$PROJECT_DIR$/src/BinaryNumberSystem/NoCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Misc File." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +34,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NoCode">
+  <component name="RunManager" selected="Application.SumOfNNumber">
     <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorsAndPrecedence.ArithmeticOperators" />
       <module name="Codes" />
@@ -77,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfNNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfNNumber.SumOfNNumber" />
+      <module name="Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SumOfNNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfNNumber" />
         <item itemvalue="Application.NoCode" />
         <item itemvalue="Application.PrecedenceAssociativity" />
         <item itemvalue="Application.ArithmeticOperators" />
@@ -93,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654675633399</updated>
-      <workItem from="1654675634729" duration="2982000" />
+      <workItem from="1654675634729" duration="3819000" />
     </task>
     <task id="LOCAL-00001" summary="Add Misc Files.">
       <created>1654675705579</created>
@@ -144,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654686864197</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add No Code Files.">
+      <created>1654687623219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654687623219</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Misc File.">
+      <created>1654687644915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654687644915</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +191,9 @@
     <MESSAGE value="Add Arithmetic Operators Files." />
     <MESSAGE value="Add Misc Files." />
     <MESSAGE value="Update Precedence Associativity Files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Precedence Associativity Files." />
+    <MESSAGE value="Add No Code Files." />
+    <MESSAGE value="Add Misc File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Misc File." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
