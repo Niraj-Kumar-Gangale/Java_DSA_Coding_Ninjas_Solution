@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Misc File." />
+    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Sum Of N Number File.">
+      <change beforePath="$PROJECT_DIR$/../../007 - Operators and For loop/02 - Assingments+Extra/codes/src/CheckNumberSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../007 - Operators and For loop/02 - Assingments+Extra/codes/src/CheckNumberSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SumOfNNumber">
     <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorsAndPrecedence.ArithmeticOperators" />
@@ -104,7 +107,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654675633399</updated>
-      <workItem from="1654675634729" duration="3819000" />
+      <workItem from="1654675634729" duration="4262000" />
+      <workItem from="1654748466143" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="Add Misc Files.">
       <created>1654675705579</created>
@@ -169,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654687644915</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Misc File.">
+      <created>1654689431915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654689431916</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Sum Of N Number File.">
+      <created>1654689467128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654689467128</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +211,8 @@
     <MESSAGE value="Update Precedence Associativity Files." />
     <MESSAGE value="Add No Code Files." />
     <MESSAGE value="Add Misc File." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Misc File." />
+    <MESSAGE value="Add Sum Of N Number File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Sum Of N Number File." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
