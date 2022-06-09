@@ -69,8 +69,34 @@
 import java.util.Scanner;
 public class CheckNumberSequence {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int prev = sc.nextInt();
+        int current ;
 
+        int count = 2;
+        // because we have to iterate the whole array once we took count.
+        boolean isDec = true;
+        while (count < n) {
+            current = sc.nextInt();
+            count++;
+            if (current == prev) {
+                System.out.println("false");
+                return;
+            }
+            if (current < prev) {
+                if (isDec == false) {
+                    System.out.println("false");
+                    return;
+                }
+            } else {
+                if (isDec == true) {
+                    isDec = false;
+                }
+            }
+            prev = current;
+        }
+        System.out.println("true");
     }
 }
