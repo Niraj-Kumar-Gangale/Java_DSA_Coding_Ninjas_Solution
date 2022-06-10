@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Update Largest column Sum class File." />
+    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Update misc File.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +122,7 @@
       <updated>1654675633399</updated>
       <workItem from="1654675634729" duration="4262000" />
       <workItem from="1654748466143" duration="10860000" />
-      <workItem from="1654838477417" duration="2769000" />
+      <workItem from="1654838477417" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="Add Misc Files.">
       <created>1654675705579</created>
@@ -283,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654841263504</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update misc File.">
+      <created>1654841620663</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654841620663</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +327,8 @@
     <MESSAGE value="Update Largest column sum File." />
     <MESSAGE value="Add misc File." />
     <MESSAGE value="Update Largest column Sum class File." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Largest column Sum class File." />
+    <MESSAGE value="Update misc File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update misc File." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
