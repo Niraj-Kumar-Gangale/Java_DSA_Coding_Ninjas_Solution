@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Print all Pairs File.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Update Largest column Sum class File." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +120,7 @@
       <updated>1654675633399</updated>
       <workItem from="1654675634729" duration="4262000" />
       <workItem from="1654748466143" duration="10860000" />
-      <workItem from="1654838477417" duration="2429000" />
+      <workItem from="1654838477417" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="Add Misc Files.">
       <created>1654675705579</created>
@@ -257,7 +255,35 @@
       <option name="project" value="LOCAL" />
       <updated>1654839284466</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add Largest column sum File.">
+      <created>1654841102588</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654841102588</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update Largest column sum File.">
+      <created>1654841157069</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1654841157069</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add misc File.">
+      <created>1654841196088</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654841196088</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update Largest column Sum class File.">
+      <created>1654841263504</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1654841263504</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +314,11 @@
     <MESSAGE value="Update Increment Reflection File." />
     <MESSAGE value="Add Code File." />
     <MESSAGE value="Add Print all Pairs File." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Print all Pairs File." />
+    <MESSAGE value="Add Largest column sum File." />
+    <MESSAGE value="Update Largest column sum File." />
+    <MESSAGE value="Add misc File." />
+    <MESSAGE value="Update Largest column Sum class File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Largest column Sum class File." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
