@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Sum Of N Number File.">
-      <change beforePath="$PROJECT_DIR$/../../007 - Operators and For loop/02 - Assingments+Extra/codes/src/CheckNumberSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../007 - Operators and For loop/02 - Assingments+Extra/codes/src/CheckNumberSequence.java" afterDir="false" />
+    <list default="true" id="9cb74ea1-d82c-469b-9b78-75b981075e84" name="Changes" comment="Add Print all Pairs File.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +36,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SumOfNNumber">
-    <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorsAndPrecedence.ArithmeticOperators" />
+  <component name="RunManager" selected="Application.PrintLargestColumnSum">
+    <configuration name="Code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionOverloading.Code" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArithmeticOperatorsAndPrecedence.*" />
+          <option name="PATTERN" value="FunctionOverloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +50,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryNumberSystem.NoCode" />
+    <configuration name="IncrementReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpdatingTheValue.IncrementReflection" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryNumberSystem.*" />
+          <option name="PATTERN" value="UpdatingTheValue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrecedenceAssociativity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorsAndPrecedence.PrecedenceAssociativity" />
+    <configuration name="NumberDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionWithVoidReturnType.NumberDivision" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArithmeticOperatorsAndPrecedence.*" />
+          <option name="PATTERN" value="FunctionWithVoidReturnType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfNNumber.SumOfNNumber" />
+    <configuration name="PrintAllPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintAllPairs.PrintAllPairs" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SumOfNNumber.*" />
+          <option name="PATTERN" value="PrintAllPairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintLargestColumnSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestColumnSum.PrintLargestColumnSum" />
+      <module name="Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LargestColumnSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,10 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOfNNumber" />
-        <item itemvalue="Application.NoCode" />
-        <item itemvalue="Application.PrecedenceAssociativity" />
-        <item itemvalue="Application.ArithmeticOperators" />
+        <item itemvalue="Application.PrintLargestColumnSum" />
+        <item itemvalue="Application.PrintAllPairs" />
+        <item itemvalue="Application.Code" />
+        <item itemvalue="Application.IncrementReflection" />
+        <item itemvalue="Application.NumberDivision" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654675633399</updated>
       <workItem from="1654675634729" duration="4262000" />
-      <workItem from="1654748466143" duration="2382000" />
+      <workItem from="1654748466143" duration="10860000" />
+      <workItem from="1654838477417" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="Add Misc Files.">
       <created>1654675705579</created>
@@ -187,7 +201,63 @@
       <option name="project" value="LOCAL" />
       <updated>1654689467128</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add No code File.">
+      <created>1654755646678</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654755646678</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add No code File.">
+      <created>1654762711708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654762711708</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Number division File.">
+      <created>1654774369597</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654774369597</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Increment Reflection File.">
+      <created>1654775397441</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654775397441</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update Increment Reflection File.">
+      <created>1654775611860</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654775611860</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Code File.">
+      <created>1654778841950</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654778841950</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add Code File.">
+      <created>1654839075240</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654839075240</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add Print all Pairs File.">
+      <created>1654839284466</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654839284466</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +282,13 @@
     <MESSAGE value="Add No Code Files." />
     <MESSAGE value="Add Misc File." />
     <MESSAGE value="Add Sum Of N Number File." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sum Of N Number File." />
+    <MESSAGE value="Add for loop File." />
+    <MESSAGE value="Add Number division File." />
+    <MESSAGE value="Add Increment Reflection File." />
+    <MESSAGE value="Update Increment Reflection File." />
+    <MESSAGE value="Add Code File." />
+    <MESSAGE value="Add Print all Pairs File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Print all Pairs File." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +302,19 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/PrecedenceAndAssociativity/NoCode.java</url>
+          <line>3</line>
+          <properties class="PrecedenceAndAssociativity.NoCode" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
