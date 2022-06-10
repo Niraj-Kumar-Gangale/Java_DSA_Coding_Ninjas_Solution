@@ -13,8 +13,8 @@ public class PrintLargestColumnSum {
 
         for (int i = 0; i<col; i++){
             sum = 0;
-            for (int[] ints : array) {
-                sum = sum + ints[i];
+            for (int j= 0; j<row; j++){
+                sum = sum + array[j][i];
             }
             if (sum>max){
                 max = sum;
