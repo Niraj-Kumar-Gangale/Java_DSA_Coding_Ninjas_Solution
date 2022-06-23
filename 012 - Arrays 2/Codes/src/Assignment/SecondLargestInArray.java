@@ -131,5 +131,26 @@ public class SecondLargestInArray {
         // else return arr[n-2]
         // 3 TESTCASE WILL NOT PASS BECAUSE ARRAY CAN BE { 10 , 10 , 9 ,8 ,6 , 2,1}
 
+
+        /*
+        Coding ninja method
+
+        if (arr.length == 0) {
+            return Integer.MIN_VALUE;
+        }
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            if (largest < arr[i]) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (secondLargest < arr[i] && arr[i] != largest) {
+                secondLargest = arr[i];
+            }
+        }
+        return secondLargest;
+
+
+         */
     }
 }
