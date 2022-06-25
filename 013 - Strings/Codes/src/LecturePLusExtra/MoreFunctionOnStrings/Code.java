@@ -16,12 +16,15 @@ public class Code {
         String str1 = "Noble";
         String str2 = "Niraj";
         String str3 = "noble";
+        String str4 = "Nob";
         System.out.println(str1.equals(str3));
         System.out.println(str1.equalsIgnoreCase(str3));
         System.out.println(str1.contentEquals(str3));
 
         // compare two string lexicographically
         System.out.println(str1.compareTo(str3));
+        System.out.println(str1.compareTo(str4));
+        System.out.println(str1.compareTo(str2));
 
         // to check if contain something like =
         System.out.println(str1.contains("Nob"));
