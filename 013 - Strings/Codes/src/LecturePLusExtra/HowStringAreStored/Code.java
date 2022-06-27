@@ -3,6 +3,8 @@ package LecturePLusExtra.HowStringAreStored;
 public class Code {
     public static void main(String[] args) {
         // String is non-primitive type
+        // String in Java Immutable
+        //
         // there are two type of memory in java
         // 1] Stack
         // 2] Heap
