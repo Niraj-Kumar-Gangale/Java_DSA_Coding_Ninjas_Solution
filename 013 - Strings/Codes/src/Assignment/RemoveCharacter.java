@@ -50,6 +50,18 @@ public class RemoveCharacter {
             }
         }
         return sp.toString();
+        /*
+
+        CODING NINJA METHOD
+
+        int n = str.length();
+        String ans = "";
+        for (int i = 0; i < n; i++) {
+            if (str.charAt(i) != ch) {
+                ans += str.charAt(i);
+            }
+        return ans;
+         */
 
     }
 }

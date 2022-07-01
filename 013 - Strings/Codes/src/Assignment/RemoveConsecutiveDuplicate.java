@@ -60,6 +60,23 @@ public class RemoveConsecutiveDuplicate {
         }
 
         return temp;
+
+        /*
+        method from coding ninja
+
+
+        String answer = "";
+        int startIndex = 0;
+        while(startIndex < n) {
+            char uniqueChar = str.charAt(startIndex);
+            int nextUniqueCharIndex = startIndex + 1;
+            while (nextUniqueCharIndex < n && str.charAt(nextUniqueCharIndex) == uniqueChar) {
+
+            answer += uniqueChar;
+            startIndex = nextUniqueCharIndex;
+        return answer;
+
+         */
     }
 
 }
