@@ -67,10 +67,11 @@ public class LargestRowOrColumn {
         8 7 8 6
 
          */
-        int[][] arr2d = {{}}
+        int[][] arr2d = {{6,9,8,5},{9,2,4,1},{8,3,9,3},{8,7,8,6}};
+        findLargest(arr2d);
     }
 
-    public static void findLargest(int mat[][]){
+    public static void findLargest(int[][] mat){
         //Your code goes here
         if (mat.length==0 ){
             System.out.println("row "+0+" "+ Integer.MIN_VALUE);
@@ -96,7 +97,7 @@ public class LargestRowOrColumn {
         for (int j = 0; j < mat[0].length ;++j){
             int sum = 0;
             for (int i = 0 ; i < mat.length ; ++i){
-                sum+=(mat[i][j];
+                sum+=mat[i][j];
             }
             if (sum>rowMaxSum){
                 colMaxSum = sum;
