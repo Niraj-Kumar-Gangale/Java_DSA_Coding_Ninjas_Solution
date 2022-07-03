@@ -16,7 +16,7 @@ public class Codes {
         //    |@arr2d[3]|     |1|2|3|4|5|
         //    |@arr2d[4]|     |1|2|3|4|5|
         //    |@arr2d[5]|     |1|2|3|4|5|
-        //   MASTER ARRAY
+        //   MASTER  ARRAY
 
         // when you print arr2d
         System.out.println(arr2d);
