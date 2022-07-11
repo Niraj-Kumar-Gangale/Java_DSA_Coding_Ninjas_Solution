@@ -1,4 +1,4 @@
-package lecture_plus_extra.intro_plus_inheritance_and_private_members;
+package lecture_plus_extra.intro_plus_inheritance_and_private_members_function_overriding;
 
 public class Vehicle {
     String name;
@@ -16,6 +16,11 @@ public class Vehicle {
         System.out.println("Name "+ name);
         System.out.println("maxSpeed "+ maxSpeed);
 
+    }
+
+
+    public void fun(double number){
+        System.out.println(" fun(double number) ");
     }
 
 }
