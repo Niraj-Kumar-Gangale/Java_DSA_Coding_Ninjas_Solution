@@ -1,4 +1,4 @@
-package lecture_and_extra.check_if_sorted_array_better;
+package lecture_and_extra.check_if_array_is_sorted_and_helper_function;
 
 public class CheckSortedBetter {
 
@@ -50,11 +50,26 @@ public class CheckSortedBetter {
         return checkSortedBetter_2(input, startIndex + 1);
     }
 
+    // we build this method of startIndex but our parameter for the function also changed
+    // we don't want user to be worried about any thing they can keep using the function just like
+    // before we just create a similar method and use overloading of function to solve our issue/
 
+
+    public static boolean checkSortedBetter_2 (int[] input){
+        return checkSortedBetter_2(input,0);
+    }
+
+    public static boolean checkSortedBetter (int[] input){
+        return checkSortedBetter(input,0);
+    }
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,9};
-        System.out.println(checkSortedBetter(arr,0));
-        System.out.println(checkSortedBetter_2(arr,0));
+
+//        System.out.println(checkSortedBetter(arr,0));
+//        System.out.println(checkSortedBetter_2(arr,0));
+
+        System.out.println(checkSortedBetter_2(arr));
+        System.out.println(checkSortedBetter(arr));
     }
 }
