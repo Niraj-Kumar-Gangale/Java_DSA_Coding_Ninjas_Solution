@@ -65,7 +65,29 @@ public class SumOfArray {
     public static void main(String[] args) {
         int[] arr = {1 , 2, 4,5,8,6,6};
         System.out.println(sum(arr));
+        System.out.println(sumBetter(arr,0));
     }
 
+    // we have coding ninja solution also
+    public static int sumBetter(int input[], int startIndex) {
+        if(startIndex == input.length) {
+            return 0;
+        }
+        return input[startIndex] + sumBetter(input, startIndex + 1);
+    }
+
+
+    /*
+    public static int sum(int input[], int startIndex) {
+        if(startIndex == input.length) {
+            return 0;
+        }
+        return input[startIndex] + sum(input, startIndex + 1);
+    }
+
+    public static int sum(int input[]) {
+        return sum(input, 0);
+    }
+     */
 
 }
