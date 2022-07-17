@@ -7,7 +7,7 @@ public class GeoMetricSum {
 
 
 
-    // method 1
+    // method 1 0r method 2 same solution
     public static double findGeometricSum(int k){
         // Write your code here
         if (k<0){
