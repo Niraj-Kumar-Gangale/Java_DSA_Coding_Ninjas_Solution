@@ -4,7 +4,7 @@ public class StringIntoNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(convertStringToInteger("1"));
+        System.out.println(convertStringToInteger("2"));
 
 
 
