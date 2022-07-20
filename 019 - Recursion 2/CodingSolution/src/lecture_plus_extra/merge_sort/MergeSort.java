@@ -1,5 +1,7 @@
 package lecture_plus_extra.merge_sort;
 
+import java.util.Arrays;
+
 /**
  * Merge Sort Code
  * Send Feedback
@@ -29,10 +31,16 @@ public class MergeSort {
     // two method to do merge sort by recursion
     // 1] direct method in which you manually break the array into two for mergeSort operation
     // 2] better method in which you create window of operation by passing start and end indexes.
+    // 3] using the iterative method some people call it ,Bottom up approach , two-way merge sort,
+    // iterative merge sort.
 
-    // <<<<<<<<<< there is another method to do it iteratively without recursion >>>>>>>>>>>
+
 
     // Using the better method i.e. creating window of operation.
+    public static void mergeSort(int[] input){
+        // let's call the helper function
+        mergeSort(input, 0, input.length-1);
+    }
     public static void  mergeSort(int[] arr,int si , int ei){
 
         // base function
@@ -58,6 +66,7 @@ public class MergeSort {
 
 
     }
+
 
     public static void merge(int[] arr, int si , int ei) {
         // mid
@@ -98,10 +107,7 @@ public class MergeSort {
             l++;
         }
     }
-    public static void mergeSort(int[] input){
-        // let's call the helper function
-        mergeSort(input, 0, input.length-1);
-    }
+
 
 
     // using the direct method i.e. without any helper function.
@@ -163,22 +169,87 @@ public class MergeSort {
 
         }
 
-
         // copy from the temp to te original array
 
         System.arraycopy(temp, 0, array, 0, array.length);
     }
 
 
+    // 3] using the iterative merge sort
+
+    // Merge two sorted subarrays `A[from…mid]` and `A[mid+1…to]`
+    public static void merge(int[] A, int[] temp, int from, int mid, int to)
+    {
+        int k = from, i = from, j = mid + 1;
+
+        // loop till no elements are left in the left and right runs
+        while (i <= mid && j <= to)
+        {
+            if (A[i] < A[j]) {
+                temp[k++] = A[i++];
+            }
+            else {
+                temp[k++] = A[j++];
+            }
+        }
+
+        // copy remaining elements
+        while (i <= mid) {
+            temp[k++] = A[i++];
+        }
+
+        /* no need to copy the second half (since the remaining items
+           are already in their correct position in the temporary array) */
+
+        // copy back to the original array to reflect sorted order
+        for (i = from; i <= to; i++) {
+            A[i] = temp[i];
+        }
+    }
+
+    // Iteratively sort subarray `A[low…high]` using a temporary array
+    public static void mergeSortIterative(int[] A)
+    {
+        int low = 0;
+        int high = A.length - 1;
+
+        // sort array `A[]` using a temporary array `temp`
+        int[] temp = Arrays.copyOf(A, A.length);
+
+        // divide the array into blocks of size `m`
+        // m = [1, 2, 4, 8, 16…]
+        for (int m = 1; m <= high - low; m = 2*m)
+        {
+            // for m = 1, i = 0, 2, 4, 6, 8 …
+            // for m = 2, i = 0, 4, 8, 12 …
+            // for m = 4, i = 0, 8, 16 …
+            // …
+            for (int i = low; i < high; i += 2*m)
+            {
+                int from = i;
+                int mid = i + m - 1;
+                int to = Integer.min(i + 2*m - 1, high);
+
+                merge(A, temp, from, mid, to);
+            }
+        }
+    }
+
+
+
+
     public static void main(String[] args) {
         int[] arr = {2,1,3,5,4,8,9};
-//        mergeSort(arr);
-//        printArray(arr);
-//        System.out.println("----------------------------");
-//        int[] arr2 = { 4,6,3,8,2,6,7};
+        mergeSort(arr);
         printArray(arr);
-        mergeSortDirect(arr);
-        printArray(arr);
+        System.out.println();
+        int[] arr2 = { 4,6,3,8,2,6,7};
+        mergeSortDirect(arr2);
+        printArray(arr2);
+        System.out.println();
+        int[] arr3 = {7,2,6,5,4,3,8};
+        mergeSortIterative( arr3);
+        printArray(arr3);
     }
 
     public static void printArray(int[] array){
