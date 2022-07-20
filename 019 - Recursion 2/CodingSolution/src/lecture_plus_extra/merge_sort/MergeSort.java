@@ -1,6 +1,9 @@
 package lecture_plus_extra.merge_sort;
 
+import com.sun.security.jgss.GSSUtil;
+
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Merge Sort Code
@@ -181,6 +184,7 @@ public class MergeSort {
     public static void merge(int[] A, int[] temp, int from, int mid, int to)
     {
         int k = from, i = from, j = mid + 1;
+        System.out.println("from "+ from + " mid "+ mid + " to "+ to);
 
         // loop till no elements are left in the left and right runs
         while (i <= mid && j <= to)
@@ -193,8 +197,13 @@ public class MergeSort {
             }
         }
 
+        //
         // copy remaining elements
-        while (i <= mid) {
+        // while (i <= mid) this will produce error for large number of inputs
+        // it fails test cases for large values in coding ninja
+        // so use this while (i <= mid
+        // && i <A.length )
+        while (i <= mid && i <A.length) {
             temp[k++] = A[i++];
         }
 
@@ -220,6 +229,7 @@ public class MergeSort {
         // m = [1, 2, 4, 8, 16…]
         for (int m = 1; m <= high - low; m = 2*m)
         {
+            System.out.println("m "+ m);
             // for m = 1, i = 0, 2, 4, 6, 8 …
             // for m = 2, i = 0, 4, 8, 12 …
             // for m = 4, i = 0, 8, 16 …
@@ -239,6 +249,15 @@ public class MergeSort {
 
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int[] arr3 = new int[403];
+
+
+         for (int i = 0 ; i < 403 ; i++ ){
+             arr3[i] = sc.nextInt();
+         }
+         sc.close();
         int[] arr = {2,1,3,5,4,8,9};
         mergeSort(arr);
         printArray(arr);
@@ -247,16 +266,55 @@ public class MergeSort {
         mergeSortDirect(arr2);
         printArray(arr2);
         System.out.println();
-        int[] arr3 = {7,2,6,5,4,3,8};
+//        int[] arr3 = { 1,3,4,5,2};
         mergeSortIterative( arr3);
         printArray(arr3);
     }
+
+    /*
+     * There is an error in the code it will give an Exception to ArrayIndexOutOfBoundException
+     * for large value of the input.
+     *
+     * let me explain it,
+     *
+     * if we give it 403 element
+     *
+     * and when m has a value of 4 (i.e. m=4)
+     * it will divide the array into 4 and 4 block
+     * and merge those 4 and 4 blocks to generate a sorted array of lengths 8
+     *
+     * now when it was dividing the array let's say
+     *
+     * i = 0;
+     * from = 0
+     * mid = 0 + 4 -1 = 3
+     * to = minimum( 0 + 2*8 -1 = 7, 403)
+     *
+     *
+     * i = 8
+     * from = 8
+     * mid = 8 + 4-1 = 11
+     * to = minimum ( 8 + 2*4 -1 = 15, 403)
+
+     * ........ keep on going..............
+     *
+     * (here it will generate an error )
+     * i = 400
+     * from = 400
+     * mid = 400 + 4 - 1 = 403
+     * to = minimum(400 + 2*4 -1= 407 , 403)
+     *
+     * mid value = 403 will generate error
+     * to remove this error just add a condition inside while loop in line 22 of the code
+     *         while (i <= mid && i< A.length)
+     * */
 
     public static void printArray(int[] array){
         for (int j : array) {
             System.out.print(j+" ");
         }
     }
+
 
 
 }
