@@ -59,7 +59,7 @@ public class ReplaceDuplicateRecursively {
             return  s.charAt(0) + removeConsecutiveDuplicates1(s.substring(1));
         }
 
-        return removeConsecutiveDuplicates(s.substring(1));
+        return removeConsecutiveDuplicates1(s.substring(1));
 
     }
 
