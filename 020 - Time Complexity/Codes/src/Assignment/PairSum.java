@@ -180,6 +180,7 @@ public class PairSum {
 
                 int tempStartIndex = startIndex + 1;
                 int tempEndIndex = endIndex - 1;
+                //tempStartIndex <= tempEndIndex [ just for sake of convenience ]
                 while (tempStartIndex <= tempEndIndex && arr[tempStartIndex] == elementAtStart) {
                     tempStartIndex += 1;
                 }
