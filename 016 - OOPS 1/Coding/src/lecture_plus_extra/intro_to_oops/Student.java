@@ -19,7 +19,7 @@ package lecture_plus_extra.intro_to_oops;
 
 // let's make a class Student, so we can make the students using the blueprints of class.
 
-import java.util.IllegalFormatCodePointException;
+
 
 public class Student {
      public String name ;
@@ -47,7 +47,6 @@ public class Student {
                return;
           }
           age = ageInput;
-
      }
 
 }

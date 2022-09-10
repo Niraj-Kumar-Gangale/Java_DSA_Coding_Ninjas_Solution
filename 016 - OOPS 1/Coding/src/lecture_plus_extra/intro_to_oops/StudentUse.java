@@ -1,7 +1,6 @@
 package lecture_plus_extra.intro_to_oops;
 
 
-
 import java.util.Scanner;
 
 public class StudentUse {
