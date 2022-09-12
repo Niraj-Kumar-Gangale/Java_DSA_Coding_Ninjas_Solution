@@ -9,9 +9,8 @@ public class Fraction {
 
 
     // First thing is constructor
-    public Fraction (int numerator , int denominator){
+    public Fraction (int numerator , int denominator)   {
         if (denominator== 0){
-            // TODO ERROR
             return;
         }else {
             this.denominator = denominator;
@@ -59,10 +58,10 @@ public class Fraction {
         simplify();
     }
 
-    public void setDenominator(int denominator){
+    public void setDenominator(int denominator) throws ZeroDenominatorException {
         if (denominator== 0){
-            // TODO ERROR
-            return;
+            ZeroDenominatorException e = new ZeroDenominatorException("Hello brother");
+            throw e;
         }else {
             this.denominator = denominator;
         }
@@ -84,7 +83,7 @@ public class Fraction {
     }
 
     // now we want static add function
-    public static Fraction add(Fraction frac1, Fraction frac2){
+    public static Fraction add(Fraction frac1, Fraction frac2)  {
         int tempNumerator = frac1.numerator* frac2.denominator + frac2.numerator* frac1.denominator;
         int tempDenominator =  frac1.denominator * frac2.denominator;
 

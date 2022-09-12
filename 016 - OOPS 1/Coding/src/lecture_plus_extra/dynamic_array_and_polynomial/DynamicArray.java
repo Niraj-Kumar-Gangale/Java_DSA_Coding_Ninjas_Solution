@@ -47,7 +47,7 @@ public class DynamicArray {
     // now we have to set and get for a particular index
     public void set(int position, int element){
         if (position > nextIndex){
-            return;
+            return; // we can handle this with error
         }
         if (position < nextIndex){
             data[position]=element;
@@ -71,7 +71,7 @@ public class DynamicArray {
     public int removeLast(){
         if (nextIndex==0){
             return -1;
-            // we will return array when we learn how to do so
+            // we will return error when we learn how to do so
         }
         int temp = get(nextIndex-1);
         set(nextIndex-1,0);

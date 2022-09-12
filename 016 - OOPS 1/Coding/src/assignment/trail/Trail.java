@@ -1,26 +1,27 @@
 package assignment.trail;
 
+import java.io.*;
+
 public class Trail {
 
-    public static void main(String[] args) {
-        // create a array
-        int arr[] = new int[5];
-        System.out.println(arr); // the address is hexadecimal for the array
+        public static void main(String[] args) {
+        ExtendsTrail2 newObject = new ExtendsTrail2("haha");
+        newObject.name = "first";
+//        newObject.number = 01;
+        newObject.email = "nkgangale@gmail.com";
 
-        // create a string
-        String str;
-        String str2 = "";
-        str = "number 2";
-        System.out.println(str);
-        System.out.println(str2);
+        // use the getter and setter to access the number
+        newObject.setNumber(56);
+        System.out.println(newObject.getNumber());
 
-        // create object from trail2
-        Trail2 newObject = new Trail2();
-        System.out.println(newObject);
+        newObject.print();
+
 
 
 
 
     }
+
+
 }
 

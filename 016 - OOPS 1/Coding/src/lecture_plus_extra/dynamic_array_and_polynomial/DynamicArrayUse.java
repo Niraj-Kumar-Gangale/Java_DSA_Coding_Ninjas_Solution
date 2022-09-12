@@ -25,6 +25,7 @@ public class DynamicArrayUse {
         // using the get to get the value ata particular position
         // value at position 1
         System.out.println(d1.get(1));
+        System.out.println(d1.removeLast());
     }
 
 

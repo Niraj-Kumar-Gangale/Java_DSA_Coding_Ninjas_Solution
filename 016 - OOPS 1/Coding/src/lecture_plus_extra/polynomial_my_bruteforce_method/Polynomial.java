@@ -2,7 +2,7 @@ package lecture_plus_extra.polynomial_my_bruteforce_method;
 
 import lecture_plus_extra.dynamic_array_and_polynomial.DynamicArray;
 
-import javax.swing.*;
+
 
 public class Polynomial {
     // my brute force approach

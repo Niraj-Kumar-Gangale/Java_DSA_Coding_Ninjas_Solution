@@ -7,16 +7,31 @@ public class FractionUse {
 
     // FOR DENOMINATOR equal TO 0 we will learn how to return exception like IndexOutOfBound
 
-    public static void main(String[] args) {
+    public static void temp() {
+
+
         Fraction f1 = new Fraction(2,3);
-        f1.print();
+
+        f1.print(); //
 
         f1.setNumerator(12);
         int d = f1.getDenominator();
         System.out.println(d);
         f1.print();
 
-        f1.setDenominator(30);
+        System.out.println("----------------------");
+
+        try {
+            f1.setDenominator(0);
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }finally {
+            System.out.println(" finally block excepted");
+        }
+
+        System.out.println("----------------------");
+
+//        f1.setDenominator(30);
         f1.setNumerator(10);
         f1.print();
 
@@ -38,7 +53,10 @@ public class FractionUse {
         f2.print();
         f3.print();
 
+    }
 
+    public static void main(String[] args) throws ZeroDenominatorException {
+        temp();
 
     }
 
