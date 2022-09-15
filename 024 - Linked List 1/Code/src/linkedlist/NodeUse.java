@@ -45,9 +45,6 @@ public class NodeUse {
 
 
         // node1.next = nodeString1;  // Error for Node<T> next;
-        
-
-
 
     }
 
