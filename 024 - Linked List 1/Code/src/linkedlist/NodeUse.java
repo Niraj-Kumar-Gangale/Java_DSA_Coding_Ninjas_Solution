@@ -29,6 +29,26 @@ public class NodeUse {
         // connect these String Nodes together
         nodeString1.next = nodeString2;
 
+
+        /*
+        if you define the Node next a
+        like this :-
+                      Node next;
+        then the next node can be of any type from Integer to String to Car To Vehicle
+        because then it will take
+                     T -> Object
+        ------------------------------------------
+        node1.next = nodeString1;
+        >>> The above code become possible
+        ------------------------------------------
+         */
+
+
+        // node1.next = nodeString1;  // Error for Node<T> next;
+        
+
+
+
     }
 
 }
