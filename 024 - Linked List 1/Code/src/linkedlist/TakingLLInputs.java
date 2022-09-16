@@ -50,11 +50,10 @@ public class TakingLLInputs {
             Node<Integer> newNode = new Node<>(data);
             if (head ==null){
                 head = newNode;
-                tail = newNode;
             }else{
                 tail.next = newNode;
-                tail = newNode;
             }
+            tail = newNode;
             data = sc.nextInt();
         }
         return head;
@@ -65,7 +64,7 @@ public class TakingLLInputs {
         head = takingInput();
         LinkedListPrint.printLinkedList(head);
         Node<Integer> head2 ;
-        head2 = takingInput();
+        head2 = takingInput2();
         LinkedListPrint.printLinkedList(head2);
     }
 
