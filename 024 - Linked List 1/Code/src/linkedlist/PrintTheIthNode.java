@@ -37,7 +37,7 @@ public class PrintTheIthNode {
         Node<Integer> head;
         head = TakingLLInputs.takingInput();
         printIthNode(head,5);
-        printIthNode(head,5);
+        printIthNode2(head,5);
 
     }
 }
