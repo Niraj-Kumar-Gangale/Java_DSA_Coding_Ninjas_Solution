@@ -6,8 +6,8 @@ package linkedlist;
 public class Node<T> {
 
     // Data members
-    T data;
-    Node<T> next;
+    public T data;
+    public Node<T> next;
 
     // constructor for the node
     public Node (T data){
