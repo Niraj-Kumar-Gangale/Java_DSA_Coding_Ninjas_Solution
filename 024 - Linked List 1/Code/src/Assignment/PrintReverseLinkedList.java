@@ -1,5 +1,6 @@
 package Assignment;
 
+import linkedlist.LinkedListLength;
 import linkedlist.Node;
 import linkedlist.TakingLLInputs;
 import java.util.ArrayList;
@@ -43,6 +44,10 @@ import java.util.ArrayList;
 
 public class PrintReverseLinkedList {
 
+    // this is my brute force solution
+    // which is not so good
+    // Time complexity - > O(n)
+    // Space Complexity -> O(n)
     public static void printTheReverseLinkedList (Node<Integer> head){
         ArrayList<Integer> tempDataStorage = new ArrayList<>();
         Node<Integer> temp = head;
@@ -54,14 +59,39 @@ public class PrintReverseLinkedList {
         }
 
         while (count>0){
-            System.out.println(tempDataStorage.get(count-1));
+            System.out.print(tempDataStorage.get(count-1 )+ " ");
             count--;
         }
     }
 
+    // Another method to solve the print the reverse linked list
+    // without using the ArrayList
+    // Time complexity - > O(n^2)
+    // Space Complexity -> O(1)
+    public static void printTheReverseLinkedList2 (Node<Integer> head){
+        if(head == null){
+            return;
+        }
+
+        // calculate the length of the linkedList
+        int lengthOfLL = LinkedListLength.length(head);
+
+        // nested for loop to print the reverseLinkedLIst
+        for (int i = 0 ; i < lengthOfLL ;i++){
+            Node<Integer> temp = head;
+            for (int j = 0 ; j < lengthOfLL-1-i; j++){
+                temp = temp.next;
+            }
+            System.out.print(temp.data + " ");
+        }
+    }
+
+
     // I can print easily if I can travel back from end to first
     // normally not possible
     // but with recursion it's possible
+    // Time complexity - > O(n)
+    // Space Complexity -> O(n)
     public static void printTheReverseLLRecursively (Node<Integer> root){
         // base case
         if (root == null){
@@ -70,7 +100,7 @@ public class PrintReverseLinkedList {
         // solve small
         printTheReverseLLRecursively(root.next);
         // solve big problem
-        System.out.println(root.data + " ");
+        System.out.print(root.data + " ");
 
     }
 
@@ -78,6 +108,9 @@ public class PrintReverseLinkedList {
     public static void main(String[] args) {
         Node<Integer> head = TakingLLInputs.takingInput();
         printTheReverseLinkedList(head);
+        System.out.println();
+        printTheReverseLinkedList2(head);
+        System.out.println();
         printTheReverseLLRecursively(head);
 //
 //        ArrayList<Integer> temp = new ArrayList<>();
